@@ -14,7 +14,7 @@
             {% for item in items %}
                 <div>
                     <a href="{% url 'item:detail' item.id %}">
-                        <div>
+                        <div class="border-b-2 border-gray bg-white flex justify-center items-center rounded-t-xl">
                             <img src="{{ item.image.url }}" class="rounded-t-xl" alt="">
                         </div>
 
